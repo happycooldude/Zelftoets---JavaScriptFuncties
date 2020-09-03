@@ -38,7 +38,7 @@ createDuck();
 function timer() {
         var random = Math.floor(Math.random() * direction.length);
         console.log(random, direction[random]);
-        console.log(top,left);
+        // console.log(top,left); geeft errors omdat ze niet "defined" zijn
     switch(direction){
         case 'N':
             top + 10;
